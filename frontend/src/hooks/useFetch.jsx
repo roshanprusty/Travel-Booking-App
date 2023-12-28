@@ -13,6 +13,7 @@ const useFetch = (url) => {
             const res = await fetch(url)
 
             if(!res.ok) {
+               console.log();
                setError('Failed to fetch')
             }
             const result = await res.json()
