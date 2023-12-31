@@ -46,22 +46,22 @@ const Footer = () => {
                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, enim.</p>
                      <div className="social__link d-flex align-items-center gap-4">
                         <span>
-                           <Link to='#'>
-                              <i class='ri-youtube-line'></i>
+                           <Link to='https://twitter.com/RoshanPrusty6' target="_blank">
+                              <i class='ri-twitter-fill'></i>
                            </Link>
                         </span>
                         <span>
-                           <Link to='#'>
+                           <Link to='https://github.com/roshanprusty' target="_blank">
                               <i class='ri-github-fill'></i>
                            </Link>
                         </span>
                         <span>
-                           <Link to='#'>
-                              <i class='ri-facebook-circle-line'></i>
+                           <Link to='https://www.linkedin.com/in/roshan-prusty/' target="_blank">
+                              <i class='ri-linkedin-fill'></i>
                            </Link>
                         </span>
                         <span>
-                           <Link to='#'>
+                           <Link to='https://www.instagram.com/roshan._.prusty/' target="_blank">
                               <i class='ri-instagram-line'></i>
                            </Link>
                         </span>
@@ -104,7 +104,7 @@ const Footer = () => {
                            <span><i class='ri-map-pin-line'></i></span>
                            Address:
                         </h6>
-                        <p className='mb-0'>Lorem</p>
+                        <p className='mb-0'>LPU</p>
                      </ListGroupItem>
 
                      <ListGroupItem className='ps-0 border-0 d-flex align-items-center gap-3'>
@@ -113,7 +113,7 @@ const Footer = () => {
                            Email:
                         </h6>
 
-                        <p className='mb-0'>Lorem</p>
+                        <p className='mb-0'>roshan18@gmail.com</p>
                      </ListGroupItem>
 
                      <ListGroupItem className='ps-0 border-0 d-flex align-items-center gap-3'>
@@ -122,7 +122,7 @@ const Footer = () => {
                            Phone:
                         </h6>
 
-                        <p className='mb-0'>Lorem</p>
+                        <p className='mb-0'>9876543210</p>
                      </ListGroupItem>
                   </ListGroup>
                </Col>
